@@ -1,0 +1,8 @@
+global:
+  css:
+    theme:
+      #path/to/css/file
+      assets/css/master.css: {}
+  js:
+    # path/to/js/file
+    asset/js/scripts.js: {}

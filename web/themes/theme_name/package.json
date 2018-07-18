@@ -1,0 +1,31 @@
+{
+  "name": "theme_name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "gulp-cli": "^2.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "npm": "^6.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-scss-lint": "^0.6.1",
+    "gulp-shell": "^0.6.5",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngcrush": "^5.1.0",
+    "jshint": "^2.9.5"
+  },
+  "author": "CodeSquatch",
+  "license": "ISC"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "codesquatch",
+  "description": "CodeSquatch Theme",
+  "bowerDir": "./bower_components",
+  "css": {
+    "file" : "master.scss",
+    "src": [
+      "assets/src/scss/**/*.scss"
+    ],
+    "dest": "assets/css"
+  },
+  "js": {
+    "file" : "hobsquatch.js",
+    "src": [
+      "assets/src/js/**/*.js"
+    ],
+    "dest": "assets/js"
+  },
+  "images": {
+    "src": [
+      "assets/images/**/*"
+    ],
+    "dest": "assets/images/"
+  },
+  "fonts": {
+    "src": [
+
+    ],
+    "dest": "./assets/fonts/"
+  }
+}

@@ -1,0 +1,16 @@
+name: 'Place Theme Name Here'
+description: 'Brief description of the theme'
+type: theme
+core: 8.x
+# Provide a base them. By default it will be stable.
+base_them: stable
+
+# Optionally provide regions for this theme. It is base theme is used then regions will
+# be provided by it until overwritten.
+#regions:
+  #site_brand: 'Site Brand'
+  #navigation: 'Navigation'
+  #content: 'Content Area'
+  #footer: 'Footer Area'
+libraries:
+  - theme_name/global
