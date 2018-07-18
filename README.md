@@ -8,8 +8,9 @@ The foundation for the Drupal install comes from: https://github.com/drupal-comp
 ## Includes
 1. Latest version of Drupal
 2. Up to date vagrant box for local development.
-3. Base theme that provides a quick setup. Integrates Gulp to compile SASS and JS files.
-4. Must have modules including devel, pathauto and admin_toolbar.
+3. Out of the Box development configurations. (PHP errors, twig debugging and no-cache)
+4. Base theme that provides a quick setup. Integrates Gulp to compile SASS and JS files.
+5. Must have modules including devel, pathauto and admin_toolbar.
 
 ## Usage
 

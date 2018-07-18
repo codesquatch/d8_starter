@@ -5,4 +5,7 @@ global:
       assets/css/master.css: {}
   js:
     # path/to/js/file
-    asset/js/scripts.js: {}
+    asset/js/codesquatch.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

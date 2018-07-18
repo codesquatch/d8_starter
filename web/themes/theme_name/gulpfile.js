@@ -63,12 +63,6 @@ gulp.task('images', function () {
     .pipe(gulp.dest(config.images.dest));
 });
 
-// Fonts.
-gulp.task('fonts', function() {
-  return gulp.src(config.fonts.src)
-    .pipe(gulp.dest(config.fonts.dest));
-});
-
 // Watch task.
 gulp.task('watch', function() {
   gulp.watch(config.css.src, ['css']);
@@ -77,13 +71,13 @@ gulp.task('watch', function() {
 });
 
 // Static Server + Watch
-gulp.task('serve', gulp.series('css', 'fonts', 'watch'), function() {
+gulp.task('serve', gulp.series('css', 'watch'), function() {
 
 });
 
 // Run drush to clear the theme registry.
 gulp.task('drush', shell.task([
-  'drush cache-clear theme-registry'
+  'drush cr'
 ]));
 
 // SCSS Linting.
@@ -102,4 +96,4 @@ gulp.task('js-lint', function() {
 });
 
 // Default Task
-// gulp.task('default', gulp.series('serve'));
+gulp.task('default', gulp.series('serve'));

@@ -12,7 +12,6 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-babel": "^7.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.1.0",
     "gulp-notify": "^3.2.0",
