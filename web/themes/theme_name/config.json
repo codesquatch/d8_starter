@@ -15,5 +15,5 @@
       "assets/src/js/**/*.js"
     ],
     "dest": "assets/js"
-  },
+  }
 }
