@@ -1,0 +1,19 @@
+- hosts: all
+  vars:
+  - site_name: SiteName
+  - account_name: "admin"
+  - account_pass: "admin"
+  - db_name: db_name
+  tasks:
+
+  - name: install packages
+    apt: name={{ item }} state=present  update_cache=yes cache_valid_time=3600
+    become: yes
+    with_items:
+    - sendmail
+    - python-pip
+    - python-mysqldb
+
+  - name: create database
+    mysql_db: name={{ db_name }} state=present
+    become: yes
