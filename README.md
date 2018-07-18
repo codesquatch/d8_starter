@@ -26,12 +26,22 @@ After that you install the project:
 
 ### Navigate to root directory, then:
 
- Retrieve Drupal dependencies.
+Retrieve Drupal dependencies.
 ```
 composer install
 ```
 
-Install Vagrant Box.
+Vagrant Install (if you use Vagrant, if you don't [get started here](https://www.vagrantup.com/intro/index.html)).
+
+1. Open VagrantFile in a text editor of choice.
+2. If running multiple vagrant boxes, change config.vm.network ip to an unused IP.
+3. Change config.vm.hostname value to local site name. e.g "site.local".
+4. Change db_name and site_name in .ansible/site.yml
+
+> Note: if you are just now installing Vagrant, it is recommended you use [Vagrant Hostmanager](https://github.com/devopsgroup-io/vagrant-hostmanager).
+
+Now that everything is setup, run
+
 ```
 vagrant up
 ```
