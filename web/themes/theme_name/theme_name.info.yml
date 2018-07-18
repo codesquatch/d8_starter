@@ -1,9 +1,10 @@
-name: 'Place Theme Name Here'
-description: 'Brief description of the theme'
+name: Theme Name
+description: Brief description of the theme
 type: theme
 core: 8.x
+version: VERSION
 # Provide a base them. By default it will be stable.
-base_them: stable
+base theme: stable
 
 # Optionally provide regions for this theme. It is base theme is used then regions will
 # be provided by it until overwritten.
